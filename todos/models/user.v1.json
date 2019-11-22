@@ -1,0 +1,23 @@
+{
+  "title": "User",
+  "type": "object",
+  "properties": {
+    "age": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 150
+    },
+    "name": {
+      "type": "string",
+      "description": "The user's full name."
+    }
+  },
+  "x-tags": [
+    "Todos"
+  ],
+  "required": [
+    "name",
+    "age"
+  ],
+  "description": "The user that created the todo"
+}

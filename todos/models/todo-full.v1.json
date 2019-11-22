@@ -35,12 +35,11 @@
         }
       },
       "required": [
-        "id",
-        "user"
+        "id"
       ]
     }
   ],
-  "description": "The Entire Todo-item object used by the /todoId calls",
+  "description": "The Entire Todo-item objects",
   "x-examples": {
     "example-1": {}
   }

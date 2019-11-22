@@ -2,21 +2,22 @@
   "title": "Todo Partial",
   "type": "object",
   "properties": {
-    "name": {
-      "type": "string"
-    },
     "completed": {
       "type": [
         "boolean",
         "null"
       ]
+    },
+    "name": {
+      "type": "string"
     }
   },
+  "x-tags": [
+    "Todos"
+  ],
   "required": [
     "name",
     "completed"
   ],
-  "x-tags": [
-    "Todos"
-  ]
+  "description": "This todo-item model is used in the create and update"
 }
