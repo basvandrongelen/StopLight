@@ -1,5 +1,8 @@
 {
   "title": "Todo Full",
+  "x-tags": [
+    "Todos"
+  ],
   "allOf": [
     {
       "$ref": "./todo-partial.v1.json"
@@ -37,8 +40,8 @@
       ]
     }
   ],
-  "x-tags": [
-    "Todos"
-  ]
+  "description": "The Entire Todo-item object used by the /todoId calls",
+  "x-examples": {
+    "example-1": {}
+  }
 }
-  
